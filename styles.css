@@ -1,0 +1,73 @@
+body {
+    font-family: "Computer Modern Serif", sans-serif;
+    background-color: #181b20;
+    color: #181b20;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    height:450px;
+    width: 500px;
+    background-color:#cdcdcd;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+}
+
+.col-1-child {
+    background-image: url(nemo.jpg);
+    background-position: 40% 15%;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: #81a2be;
+    padding: 20px;
+    height: 200px;
+}
+
+.col-1-child-1 {
+    padding-top: 20px;
+}
+
+.links {
+    padding-top: 150px;
+}
+
+a {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:link {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
